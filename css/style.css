@@ -1,0 +1,116 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.headbar {
+    height: 70%;
+    width: 100%;
+    background-image: linear-gradient(360deg, #11435759, #09a9ea00), url(../images/headimage.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: linear-gradient(360deg, #11435759, #09a9ea00);
+}
+
+nav p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 10px;
+    float: left;
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #11435759;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 150px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 5px 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color: royalblue;
+}
+
+
+
+.headcenter h1 {
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    background-color: #09a9ea00;
+    padding: 90px;
+}
+
+.font ul li {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: #ba54f5;
+    border-radius: 100%;
+    margin: 0;
+
+}
+
+.font ul li a {
+    line-height: 50px;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.font ul li a:hover {
+    background-color: yellowgreen;
+    border-radius: 50%;
+}

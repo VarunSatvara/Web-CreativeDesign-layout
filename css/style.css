@@ -43,13 +43,14 @@ nav ul li {
     float: right;
     list-style: none;
     position: relative;
+    padding: 10px;
 }
 
 nav ul li a {
     color: #fff;
     font-family: sans-serif;
     font-size: 17px;
-    padding: 10px 10px;
+    padding: 10px 1px;
     text-decoration: none;
     display: block;
 }
@@ -113,4 +114,214 @@ nav ul li ul li a:hover {
 .font ul li a:hover {
     background-color: yellowgreen;
     border-radius: 50%;
+}
+
+.buybtn {
+    float: right;
+    width: 100px;
+    background-color: #263148;
+    border-style: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.buybtn h3 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.seconddiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #344675;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    top: -85px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.item {
+    height: 460px;
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+}
+
+.backpicfirst {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/backpicfirst.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.backpicsecond {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/backpicsecond.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.backpicthird {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/backpicthird.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.thirddiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #344675;
+    position: relative;
+}
+
+.textcontainer {
+    width: 80%;
+    margin: auto;
+    top: -280px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.textitem {
+    height: 460px;
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    overflow: auto;
+}
+.textfirst{
+    position: relative;
+    overflow: auto;
+}
+
+.textfirst h6 {
+    color: #e14eca;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 5px;
+}
+
+.textfirst h3 {
+    line-height: 27px;
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textfirst p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.textsecond h6 {
+    color: #1d8cf8;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 5px;
+}
+
+.textsecond h3 {
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textsecond p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.textthird h6 {
+    color: #ff8d72;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 5px;
+}
+
+.textthird h3 {
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textthird p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+}
+.roundpicf{
+    height: 35px;
+    width:35px;
+    background-image: url(../images/roundpicf.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+.roundpicf h6{
+    color: #fff;
+    float: left;
 }

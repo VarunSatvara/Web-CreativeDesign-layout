@@ -187,7 +187,6 @@ nav ul li ul li a:hover {
 }
 
 .thirddiv {
-    height: 100%;
     width: 100%;
     margin: 0;
     background-color: #344675;
@@ -211,7 +210,8 @@ nav ul li ul li a:hover {
     padding: 20px;
     overflow: auto;
 }
-.textfirst{
+
+.textfirst {
     position: relative;
     overflow: auto;
 }
@@ -311,9 +311,10 @@ nav ul li ul li a:hover {
     margin: 0;
     padding-top: 15px;
 }
-.roundpicf{
+
+.roundpicf {
     height: 35px;
-    width:35px;
+    width: 35px;
     background-image: url(../images/roundpicf.jpg);
     background-size: cover;
     background-position: center;
@@ -321,7 +322,99 @@ nav ul li ul li a:hover {
     margin-top: 10px;
     float: left;
 }
-.roundpicf h6{
+
+.roundtxt h6 {
     color: #fff;
     float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.roundpics {
+    height: 35px;
+    width: 35px;
+    background-image: url(../images/roundpics.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.roundtxts h6 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.roundpict {
+    height: 35px;
+    width: 35px;
+    background-image: url(../images/roundpict.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.roundtxtth h6 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.smfontf {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-right: 2px;
+    float: right;
+    color: #525f7f;
+    font-weight: 400;
+}
+
+.smtxtf h6 {
+    color: #fff;
+    float: right;
+    padding-top: 20px;
+    padding-left: 4px;
+    color: #525f7f;
+    font-weight: 400;
+}
+
+.smfonts {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-right: 2px;
+    float: right;
+    color: #525f7f;
+    font-weight: 400;
+}
+
+.smtxts h6 {
+    color: #525f7f;
+    float: right;
+    padding-top: 20px;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.smfontth {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-right: 2px;
+    float: right;
+    color: #525f7f;
+    font-weight: 400;
+}
+
+.smtxtth h6 {
+    color: #fff;
+    float: right;
+    padding-top: 20px;
+    padding-left: 4px;
+    color: #525f7f;
+    font-weight: 400;
 }

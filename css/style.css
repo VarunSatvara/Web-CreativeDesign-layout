@@ -163,7 +163,7 @@ nav ul li ul li a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .backpicsecond {
@@ -173,7 +173,7 @@ nav ul li ul li a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .backpicthird {
@@ -183,24 +183,7 @@ nav ul li ul li a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 4px 4px 4px 4px;
-}
-
-.thirddiv {
-    width: 100%;
-    margin: 0;
-    background-color: #344675;
-    position: relative;
-}
-
-.textcontainer {
-    width: 80%;
-    margin: auto;
-    top: -280px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .textitem {
@@ -224,7 +207,7 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     line-height: 14.4px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .textfirst h3 {
@@ -257,7 +240,7 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     line-height: 14.4px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .textsecond h3 {
@@ -289,7 +272,7 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     line-height: 14.4px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .textthird h3 {

@@ -614,6 +614,35 @@ nav ul li ul li a:hover {
     padding-top: 20px;
     padding-left: 4px;
 }
-.read{
+
+.read {
     color: #e14eca;
+}
+
+.fourthdiv {
+    height: 100%;
+    width: 100%;
+    background-color: #344675;
+    position: relative;
+}
+.containerimage{
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width:80%;
+    margin: auto;
+    position: absolute;
+    overflow: auto;
+}
+.imageleft{
+    height: 660px;
+    width:30%;
+    float: left;
+    background-image: url(../images/bigimg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.docleft{
+    float: left;
 }

@@ -402,4 +402,218 @@ nav ul li ul li a:hover {
     font-weight: 400;
 }
 
+.thirddiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #344675;
+    position: relative;
+}
 
+.containeritem {
+    width: 80%;
+    margin: auto;
+    top: -85px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.itemlist {
+    height: 460px;
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+}
+
+.frontpicfirst {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/forntpicfirst.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.frontpicsecond {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/frontpicsec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.frontpicthird {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/frontpicth);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.textitem {
+    height: 460px;
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    overflow: auto;
+}
+
+.textfirst1 h6 {
+    color: #1d8cf8;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 10px;
+}
+
+.textfirst1 h3 {
+    line-height: 27px;
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textfirst1 p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.textsecond2 h6 {
+    color: #00f2c3;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 10px;
+}
+
+.textsecond2 h3 {
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textsecond2 p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.textthird3 h6 {
+    color: #fd5d93;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 14.4px;
+    padding-top: 10px;
+}
+
+.textthird3 h3 {
+    color: #e14eca;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.textthird3 p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.roundpicf1 {
+    height: 35px;
+    width: 35px;
+    background-image: url(../images/circlepicf.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.roundtxt1 h6 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.roundpics2 {
+    height: 35px;
+    width: 35px;
+    background-image: url(../images/circlepics.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.roundtxts2 h6 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.roundpict3 {
+    height: 35px;
+    width: 35px;
+    background-image: url(../images/circlepict.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.roundtxtth3 h6 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+.read{
+    color: #e14eca;
+}

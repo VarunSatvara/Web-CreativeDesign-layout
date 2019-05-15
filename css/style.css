@@ -845,8 +845,8 @@ nav ul li ul li a:hover {
     background-size: cover;
     background-position: center;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     position: relative;
+
 }
 
 .imagesecond {
@@ -907,6 +907,7 @@ nav ul li ul li a:hover {
     bottom: 30px;
     position: absolute;
 }
+
 .imagesecond h3 {
     color: #fff;
     font-size: 12px;
@@ -928,6 +929,7 @@ nav ul li ul li a:hover {
     bottom: 30px;
     position: absolute;
 }
+
 .imagethree h3 {
     color: #fff;
     font-size: 12px;
@@ -949,6 +951,7 @@ nav ul li ul li a:hover {
     bottom: 30px;
     position: absolute;
 }
+
 .imagefour h3 {
     color: #fff;
     font-size: 12px;
@@ -969,4 +972,131 @@ nav ul li ul li a:hover {
     left: 20px;
     bottom: 30px;
     position: absolute;
+}
+
+.seventhdiv {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    top: 0;
+    position: relative;
+    background-color: #32325d;
+}
+
+.seventhdiv h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.containerphoto {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 70px;
+}
+
+.photo {
+    height: 500px;
+    width: 33.3%;
+    margin: 0;
+    float: left;
+    padding: 25px;
+}
+
+.photofirst {
+    height: 85%;
+    width: 100%;
+    background-image: url(../images/photo1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+.photosecond {
+    height: 85%;
+    width: 100%;
+    background-image: linear-gradient(80deg, #000000ab, #605c3c4f),
+        url(../images/roundpict.jpg);
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+.photothree {
+    height: 85%;
+    width: 100%;
+    background-image: url(../images/roundpics.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+.textdocfirst {
+    height: 190px;
+    width: 100%;
+    background-color: #32325d;
+    margin: 0;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px #3236;
+}
+
+.textdocsecond {
+    height: 190px;
+    width: 100%;
+    background-color: #32325d;
+    margin: 0;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px #3236;
+}
+
+.textdocthree {
+    height: 190px;
+    width: 100%;
+    background-color: #32325d;
+    margin: 0;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px #3236;
+}
+
+.textdocfirst h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+.textdocfirst h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+.textdocfirst h5 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+.timicon{
+    float: left;
 }

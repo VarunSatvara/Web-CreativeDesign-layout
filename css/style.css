@@ -642,7 +642,7 @@ nav ul li ul li a:hover {
     font-size: 28px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    
+
 }
 
 .imageleft {
@@ -810,4 +810,163 @@ nav ul li ul li a:hover {
     font-weight: 100;
     line-height: 20px;
     margin: 0;
+}
+
+.sixthdiv {
+    height: 100%;
+    width: 100%;
+    background-color: #32325d;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+
+.sixthdiv h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.imagefirst {
+    height: 465px;
+    width: 25%;
+    float: left;
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .65)), url(../images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    position: relative;
+}
+
+.imagesecond {
+    height: 465px;
+    width: 25%;
+    float: left;
+    background-image: linear-gradient(180deg, #0000000d, #33333330), url(../images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    position: relative;
+}
+
+.imagethree {
+    height: 465px;
+    width: 25%;
+    float: left;
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    position: relative;
+}
+
+.imagefour {
+    height: 465px;
+    width: 25%;
+    float: left;
+    background-image: url(../images/image4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    position: relative;
+
+}
+
+.imagefirst h3 {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    left: 20px;
+    bottom: 80px;
+    position: absolute;
+}
+
+.imagefirst h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    left: 20px;
+    bottom: 30px;
+    position: absolute;
+}
+.imagesecond h3 {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    left: 20px;
+    bottom: 80px;
+    position: absolute;
+}
+
+.imagesecond h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    left: 20px;
+    bottom: 30px;
+    position: absolute;
+}
+.imagethree h3 {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    left: 20px;
+    bottom: 80px;
+    position: absolute;
+}
+
+.imagethree h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    left: 20px;
+    bottom: 30px;
+    position: absolute;
+}
+.imagefour h3 {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    left: 20px;
+    bottom: 80px;
+    position: absolute;
+}
+
+.imagefour h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    left: 20px;
+    bottom: 30px;
+    position: absolute;
 }

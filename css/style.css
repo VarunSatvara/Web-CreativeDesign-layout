@@ -135,7 +135,7 @@ nav ul li ul li a:hover {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #344675;
+    background-color: #32325d;
     position: relative;
 }
 
@@ -406,7 +406,7 @@ nav ul li ul li a:hover {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #344675;
+    background-color: #32325d;
     position: relative;
 }
 
@@ -622,27 +622,183 @@ nav ul li ul li a:hover {
 .fourthdiv {
     height: 100%;
     width: 100%;
-    background-color: #344675;
+    background-color: #32325d;
     position: relative;
 }
-.containerimage{
-    top:0;
+
+.containerimage {
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    width:80%;
+    width: 80%;
     margin: auto;
     position: absolute;
     overflow: auto;
 }
-.imageleft{
+
+.imageleft {
     height: 660px;
-    width:30%;
+    width: 30%;
     float: left;
     background-image: url(../images/bigimg1.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 5px 5px 5px 5px;
 }
-.docleft{
+
+.docleft {
+    width: 60%;
     float: left;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.docleft h2 {
+    color: #e14eca;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-decoration: none solid rgb(225, 78, 202);
+    line-height: 29px;
+}
+
+.docleft p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+.circlepic {
+    height: 55px;
+    width: 55px;
+    background-image: url(../images/circlepict.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 50px;
+    float: left;
+}
+
+.circlepictxt {
+    float: left;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.circlepictxt h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 7px;
+}
+
+.circlepictxt h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 0;
+}
+
+.fifthdiv {
+    height: 80%;
+    width: 100%;
+    background-color: #32325d;
+    position: relative;
+    
+}
+
+.containerimg {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.imageright {
+    height: 470px;
+    width: 30%;
+    float: left;
+    background-image: url(../images/backpicthird.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.docright {
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.docright h2 {
+    color: #e14eca;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-decoration: none solid rgb(225, 78, 202);
+    line-height: 29px;
+}
+
+.docright p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+.golpic {
+    height: 55px;
+    width: 55px;
+    background-image: url(../images/circlepics.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 50px;
+    float: left;
+}
+
+.golpictxt {
+    float: left;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.golpictxt h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 7px;
+}
+
+.golpictxt h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 0;
 }

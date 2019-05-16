@@ -1005,43 +1005,41 @@ nav ul li ul li a:hover {
 }
 
 .photo {
-    height: 500px;
     width: 33.3%;
     margin: 0;
     float: left;
-    padding: 25px;
+    padding: 20px;
 }
 
 .photofirst {
-    height: 85%;
+    height: 370px;
     width: 100%;
-    background-image: url(../images/photo1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/photo1.jpeg);
     background-position: center;
     background-size: cover;
-    background-blend-mode: color;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .photosecond {
-    height: 85%;
+    height: 370px;
     width: 100%;
-    background-image: linear-gradient(80deg, #000000ab, #605c3c4f),
-        url(../images/roundpict.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/roundpict.jpg);
     background-position: top;
     background-size: cover;
-    background-blend-mode: color;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .photothree {
-    height: 85%;
+    height: 370px;
     width: 100%;
-    background-image: url(../images/roundpics.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/roundpics.jpg);
     background-position: center;
     background-size: cover;
-    background-blend-mode: color;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .textdocfirst {
-    height: 190px;
+    height: 205px;
     width: 100%;
     background-color: #32325d;
     margin: 0;
@@ -1051,7 +1049,7 @@ nav ul li ul li a:hover {
 }
 
 .textdocsecond {
-    height: 190px;
+    height: 205px;
     width: 100%;
     background-color: #32325d;
     margin: 0;
@@ -1061,7 +1059,7 @@ nav ul li ul li a:hover {
 }
 
 .textdocthree {
-    height: 190px;
+    height: 205px;
     width: 100%;
     background-color: #32325d;
     margin: 0;
@@ -1078,7 +1076,6 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     text-align: right;
     padding-right: 10px;
-    margin: 0;
 }
 
 .textdocfirst h4 {
@@ -1099,6 +1096,13 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     text-align: right;
     padding-right: 10px;
+}
+
+.textdocfirst hr {
+    width: 13%;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
 }
 
 .timone {
@@ -1136,4 +1140,117 @@ nav ul li ul li a:hover {
 .dotted {
     font-size: 30px;
     letter-spacing: 5px;
+}
+
+.textdocsecond h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocsecond h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocsecond h5 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocsecond hr {
+    width: 13%;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.textdocthree h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocthree h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocthree h5 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.textdocthree hr {
+    width: 13%;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.eighthdiv {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    background-color: #32325d;
+}
+
+.eighthdiv h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.box {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.fontawesome {
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    background-color: rebeccapurple;
+}
+
+.fontfirst {
+    float: left;
+}
+
+.fontone {
+    font-size:
 }

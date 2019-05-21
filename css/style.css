@@ -1357,3 +1357,45 @@ nav ul li ul li a:hover {
     letter-spacing: normal;
     margin: 0;
 }
+
+.tenthdiv {
+    width: 70%;
+    margin: auto;
+    background-color: #344675;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:80px;
+}
+
+.borderdiv {
+    float: left;
+}
+
+.emailicon {
+    color: #9a9a9a;
+    padding: 5px 40px;
+    border: 1px solid #9a9a9a;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.form-control {
+    height: 40px;
+    width: 470px;
+    color: #fff;
+    background-color: #344675;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.btn {
+    float: left;
+    padding-left: 19px;
+}
+
+.Subscribe {
+    color: #fff;
+    background-color: #ba54f5;
+    padding: 15px 77px 15px 77px;
+    border-radius: 5px 5px 5px 5px;
+}

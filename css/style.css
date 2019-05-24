@@ -1091,6 +1091,26 @@ nav ul li ul li a:hover {
     text-align: right;
 }
 
+.textdocsecond h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+    padding-right: 8px;
+    text-align: right;
+}
+
+.textdocthree h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+    padding-right: 8px;
+    text-align: right;
+}
+
 .leftsite {
     float: left;
     padding-top: 20px;
@@ -1127,7 +1147,7 @@ nav ul li ul li a:hover {
 
 .lefttext h4 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 100;
     font-family: "Poppins", sans-serif;
     padding: 3px;
@@ -1135,10 +1155,10 @@ nav ul li ul li a:hover {
 
 .righttext h4 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 100;
     font-family: "Poppins", sans-serif;
-    padding:3px;
+    padding: 3px;
 }
 
 .righttext h3 {
@@ -1146,7 +1166,6 @@ nav ul li ul li a:hover {
     font-size: 20px;
     padding: 3px;
 }
-
 
 .eighthdiv {
     height: 100%;

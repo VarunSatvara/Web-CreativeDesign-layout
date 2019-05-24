@@ -622,10 +622,10 @@ nav ul li ul li a:hover {
 }
 
 .fourthdiv {
-   /* height: 100%;*/
+    /* height: 100%;*/
     width: 100%;
     background-color: #32325d;
-   /* position: relative;*/
+    /* position: relative;*/
 }
 
 .containerimage {
@@ -1046,19 +1046,20 @@ nav ul li ul li a:hover {
     width: 100%;
     background-color: #32325d;
     margin: 0;
-    display: inline-block;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 1px 1px 1px 1px #3236;
+    overflow: auto;
 }
+
 
 .textdocsecond {
     height: 205px;
     width: 100%;
     background-color: #32325d;
     margin: 0;
-    display: inline-block;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 1px 1px 1px 1px #3236;
+    overflow: auto;
 }
 
 .textdocthree {
@@ -1066,52 +1067,44 @@ nav ul li ul li a:hover {
     width: 100%;
     background-color: #32325d;
     margin: 0;
-    display: inline-block;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 1px 1px 1px 1px #3236;
+    overflow: auto;
 }
 
-.textdocfirst h3 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 23px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocfirst h4 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocfirst h5 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocfirst hr {
-    width: 13%;
+.line {
     float: right;
-    margin-top: 13px;
-    margin-right: 10px;
+    height: 3px;
+    width: 40px;
+    background-color: #e14eca;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+.textdocfirst h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+    padding-right: 8px;
+    text-align: right;
+}
+
+.leftsite {
+    float: left;
+    padding-top: 20px;
+}
+
+.rightsite {
+    float: right;
+    padding-top: 20px;
 }
 
 .timone {
     color: #e14eca;
     float: left;
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: normal;
     padding-left: 13px;
 }
@@ -1119,7 +1112,7 @@ nav ul li ul li a:hover {
 .timtwo {
     color: #e14eca;
     float: left;
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: normal;
     padding-left: 13px;
 }
@@ -1127,97 +1120,33 @@ nav ul li ul li a:hover {
 .timthree {
     color: #e14eca;
     float: left;
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: normal;
-    padding-top: 20px;
     padding-left: 13px;
 }
 
-.white {
-    color: white;
-    font-size: 16px;
+.lefttext h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-weight: 100;
     font-family: "Poppins", sans-serif;
-    padding-left: 8px;
+    padding: 3px;
 }
 
-.dotted {
-    font-size: 30px;
-    letter-spacing: 5px;
-}
-
-.textdocsecond h3 {
-    color: #fff;
+.righttext h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-weight: 100;
     font-family: "Poppins", sans-serif;
-    font-size: 23px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
+    padding:3px;
 }
 
-.textdocsecond h4 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
+.righttext h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    padding: 3px;
 }
 
-.textdocsecond h5 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocsecond hr {
-    width: 13%;
-    float: right;
-    margin-top: 13px;
-    margin-right: 10px;
-}
-
-.textdocthree h3 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 23px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocthree h4 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocthree h5 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.textdocthree hr {
-    width: 13%;
-    float: right;
-    margin-top: 13px;
-    margin-right: 10px;
-}
 
 .eighthdiv {
     height: 100%;

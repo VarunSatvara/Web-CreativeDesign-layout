@@ -1208,10 +1208,10 @@ nav ul li ul li a:hover {
 }
 
 .fontawesome {
-    width: 85%;
+    width: 80%;
     overflow: auto;
     margin: auto;
-    padding: 40px;
+    padding-top: 10px;
 }
 
 .icon {

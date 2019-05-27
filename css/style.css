@@ -1207,11 +1207,19 @@ nav ul li ul li a:hover {
 
 }
 
+
+
 .fontawesome {
     width: 80%;
     overflow: auto;
     margin: auto;
     padding-top: 10px;
+}
+
+.social-badge {
+    width: 100%;
+    overflow: auto;
+
 }
 
 .icon {

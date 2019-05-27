@@ -1188,9 +1188,7 @@ nav ul li ul li a:hover {
     margin-top: 70px;
 }
 
-.social {
-    float: left;
-}
+.social {}
 
 .borderbox {
     height: 82px;
@@ -1207,8 +1205,6 @@ nav ul li ul li a:hover {
 
 }
 
-
-
 .fontawesome {
     width: 80%;
     overflow: auto;
@@ -1222,76 +1218,58 @@ nav ul li ul li a:hover {
 
 }
 
+.social-container {
+    width: 16.66%;
+    float: left;
+    border-right: 1px #7777775c solid;
+    text-align: center;
+}
+
 .icon {
     padding: 40px 70px;
-    margin-left: 17px;
 }
 
 .fontone {
     color: #3ea1ec;
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    border-radius: 4px 4px 4px 4px;
+    padding: 30px 65px;
+}
+
+.font-twitter-color {
     border: 1px solid #3ea1ec;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
+    color: #3ea1ec;
 }
 
-.fontsec {
-    color: #344777;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #344777;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
-}
-
-.fontth {
-    color: #d73925;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #d73925;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
-}
-
-.fontfr {
-    color: #ed679b;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #ed679b;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
-}
-
-.fontfv {
-    color: #e84842;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
+.font-youtube-color {
     border: 1px solid #e84842;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
+    color: #e84842;
 }
 
-.fontsx {
-    color: #1667a3;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #1667a3;
-    border-radius: 4px 4px 4px 4px;
-    padding: 30px 65px;
+.font-facebook-color {
+    border: 1px solid #344e86;
+    color: #344e86;
 }
+
+.font-google-color {
+    border: 1px solid #d73925;
+    color: #d73925;
+}
+
+.font-dribbble-color {
+    border: 1px solid #ed679b;
+    color: #ed679b;
+}
+
+.font-instagram-color {
+    border: 1px solid #1667a3;
+    color: #1667a3;
+}
+
+
 
 .ninethdiv {
     width: 100%;

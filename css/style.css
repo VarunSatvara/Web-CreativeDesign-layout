@@ -1340,13 +1340,13 @@ nav ul li ul li a:hover {
     float: left;
     /* padding-left: 19px; */
     width: 30%;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .Subscribe {
     color: #fff;
     background-color: #ba54f5;
-    padding: 15px 77px 15px 77px;
+    padding: 15px 70px 15px 70px;
     border-radius: 5px 5px 5px 5px;
 }
 

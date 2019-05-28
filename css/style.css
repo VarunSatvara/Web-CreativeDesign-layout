@@ -1306,7 +1306,7 @@ nav ul li ul li a:hover {
 }
 
 .tenthdiv {
-    width: 70%;
+    width: 68%;
     margin: auto;
     background-color: #344675;
     overflow: auto;
@@ -1333,13 +1333,14 @@ nav ul li ul li a:hover {
     color: #fff;
     background-color: #344675;
     border-style: none;
-    padding-left: 10px;
+    
 }
 
 .btn {
     float: left;
     /* padding-left: 19px; */
     width: 30%;
+    padding-left: 15px;
 }
 
 .Subscribe {
@@ -1347,7 +1348,6 @@ nav ul li ul li a:hover {
     background-color: #ba54f5;
     padding: 15px 77px 15px 77px;
     border-radius: 5px 5px 5px 5px;
-    margin-left: 20px;
 }
 
 .elevendiv {
